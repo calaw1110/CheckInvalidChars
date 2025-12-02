@@ -5,7 +5,16 @@
 
 ---
 
-## 安裝
+## 安裝 或 自行建置
+
+### 安裝
 
 ```bash
 npm install checkInvalidChars
+```
+
+### 自行建置
+
+```bash
+npm run build
+```
