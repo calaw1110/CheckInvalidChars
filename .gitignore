@@ -1,0 +1,52 @@
+# ─── Node Modules ────────────────────────────────
+node_modules/
+
+# ─── Build Output ───────────────────────────────
+build/
+lib/
+out/
+
+# TS build 的暫存目錄
+.tsbuildinfo
+*.tsbuildinfo
+
+# ─── TypeScript 編譯後檔案 ───────────────────────
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# ─── Logs ────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Env / Secrets ───────────────────────────────
+.env
+.env.*.local
+.env.local
+
+# ─── IDE / Editor 相關 ──────────────────────────
+.vscode/
+.vscode-test/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# ─── Mac / Windows 系統檔案 ─────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Optional: 測試 Coverage ─────────────────────
+coverage/
+
+# ─── Optional: TS lint cache ─────────────────────
+.eslintcache
+
+# ─── Optional: 打包工具產生的暫存 ───────────────
+.cache/
+.parcel-cache/
+.rollup.cache/
+vite.config.ts.timestamp-*
