@@ -10,10 +10,6 @@ out/
 .tsbuildinfo
 *.tsbuildinfo
 
-# ─── TypeScript 編譯後檔案 ───────────────────────
-*.js.map
-*.d.ts
-*.d.ts.map
 
 # ─── Logs ────────────────────────────────────────
 npm-debug.log*
