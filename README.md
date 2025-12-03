@@ -5,7 +5,7 @@
 
 ---
 
-## 安裝 或 自行建置
+## 安裝
 
 ### 安裝
 
@@ -13,8 +13,10 @@
 npm install checkInvalidChars
 ```
 
-### 自行建置
+## Use Case
 
-```bash
-npm run build
+```javascript
+checkInvalidChars(['e', '.'], "123") // true
+
+checkInvalidChars(['e', '.'], "12e3") // false
 ```

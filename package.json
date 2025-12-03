@@ -1,15 +1,23 @@
 {
     "name": "checkinvalidchars",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "checkinvalidchars is a utility to check for invalid characters in strings.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "test": "jest",
         "build": "tsc"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "typescript",
+        "javascript",
+        "library"
+    ],
+    "author": "Calaw",
+    "license": "MIT",
     "devDependencies": {
         "@types/jest": "^30.0.0",
         "jest": "^30.2.0",
